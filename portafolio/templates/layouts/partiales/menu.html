@@ -1,0 +1,18 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static "main.css" %}">
+<link rel="stylesheet" href="{% static "helpers.css" %}">
+
+    <div class="header__menu" id="menu">
+      <nav>
+        <ul class= "header__list">
+          <li class="header_item">
+            <a href={% url "inicio" %} class="header__link">Inicio</a>
+          </li>
+          <li>
+            <a href={% url "portafolio" %} class="header__link">Portafolio</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+

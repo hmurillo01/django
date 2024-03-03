@@ -1,0 +1,27 @@
+{% extends "layouts/app.html" %}
+
+{% load static %}
+
+{% block  content %}
+<link rel="stylesheet" href="{% static " main.css" %}">
+<link rel="stylesheet" href="{% static " helpers.css" %}">
+
+  <section class="hero">
+
+      <figure class="hero__picture">
+        <img src="{% static "assets/inicio.png" %}" alt="inicio" class="hero_img">
+      </figure>
+
+      <div class="hero__text">
+        <h1 class="hero__title">
+          Bienvenidos
+        </h1>
+        <p class="hero__paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores maxime
+          beatae quos quae sunt dolorum sit odit sequi nihil officiis.
+        </p>
+      </div>
+  </section>
+
+    
+{% endblock  %}
